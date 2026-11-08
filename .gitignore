@@ -1,0 +1,46 @@
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*_rsa
+*.env
+.env
+.env.*
+!.env.example
+credentials.json
+*credentials*.json
+aws-exports.js
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+tmp/
+*.tmp
